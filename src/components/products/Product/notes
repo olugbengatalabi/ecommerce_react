@@ -1,0 +1,6 @@
+<CardMedia className={classes.media} image={product.media.source} title={product.name} />
+
+
+          <Route exact path='/'>
+            <Products products={products} addToCart={addToCart} />
+          </Route>
